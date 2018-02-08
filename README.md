@@ -36,5 +36,5 @@ app.apk כדי להתקין את האפליקציה נדרש להוריד ולה
 
 פעילות האפליקצייה ניתן לראות בסרטון
 
-[!](https://img.youtube.com/vi/WFGG_7fgE9c/0.jpg)](https://youtu.be/WFGG_7fgE9c)
+[![סרטון הדגמה של אפליקציית אנדרואיד - רשימת קניות משותפת](https://img.youtube.com/vi/WFGG_7fgE9c/0.jpg)](https://youtu.be/WFGG_7fgE9c)
 
