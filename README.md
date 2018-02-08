@@ -34,6 +34,7 @@ app.apk כדי להתקין את האפליקציה נדרש להוריד ולה
 
 ניתן לראות מדריך בקובץ המדריך למשתמש
 
-ואת פעילות הקפליקצייה בסרטון
+פעילות האפליקצייה ניתן לראות בסרטון
 
-https://youtu.be/WFGG_7fgE9c
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WFGG_7fgE9c/0.jpg)](https://youtu.be/WFGG_7fgE9c)
+
