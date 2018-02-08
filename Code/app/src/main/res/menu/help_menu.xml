@@ -1,0 +1,22 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="kinneret.shoppinglist.user_interface.list.ActivityShoppingList">
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+
+<item
+        android:title="@string/pressBtnToAdd"   />
+
+    <item
+        android:id="@+id/it_swipe_rigt_share"
+        android:title="@string/swipeRightShare"   />
+    <item
+        android:id="@+id/it_swipe_rigt_check"
+        android:title="@string/swipeRightCheck"   />
+    <item
+        android:title="@string/swipeLeftDelete" />
+
+    <item
+        android:id="@+id/it_long_click_enter_list"
+        android:title="@string/long_click_enter_list"   />
+</menu>

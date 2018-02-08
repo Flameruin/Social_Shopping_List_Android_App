@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Social Shopping List</string>
+    kinneret.shoppinglist
+    <string name="hint_name">Name</string>
+    <string name="hint_item_description">Description</string>
+
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="dialog_item_title">Add new item</string>
+    <string name="dialog_share_title">Add user to share with</string>
+
+    <string name="notification_title_new_item">New item has been added to the shopping list!</string>
+    <string name="notification_body_new_item">%2$s added: %1$s</string>
+
+    <string name="snackbar_database_connected">Connected to the database!</string>
+    <string name="snackbar_database_reconnecting">Lost the connection to the database, reconnecting…</string>
+    <string name="snackbar_database_connecting">Connecting to the database…</string>
+
+    <string name="loading_shopping_list">Loading your list…</string>
+    <string name="empty_shopping_list">Nothing is on your list!</string>
+
+    <string name="created_by">Created by: %1$s</string>
+    <string name="ok">OK</string>
+    <string name="grocery_list">Grocery List</string>
+    <string name="mail_address">Email: %1$s</string>
+    <string name="user_name">Welcome: %1$s</string>
+    <string name="disconnect">Disconnect</string>
+
+
+    <string name="swipeRightShare">Swipe right to share</string>
+    <string name="swipeRightCheck">Swipe right to check</string>
+    <string name="swipeLeftDelete">Swipe left to delete</string>
+    <string name="not_connected">Not connected</string>
+    <string name="snackbar_share_added">Added: %1$s</string>
+    <string name="pressBtnToAdd">Press + to add</string>
+    <string name="long_click_enter_list">Long press list for details</string>
+
+    <!-- moved to -> facebook_values
+    <string name="facebook_app_id" translatable="false">177870616146443</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb177870616146443</string>
+    !-->
+</resources>

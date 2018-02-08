@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Szociális Bevásárlólista  Lista</string>
+
+    <string name="hint_name">Név</string>
+    <string name="hint_item_description">Leírás</string>
+
+    <string name="add">Hozzáad</string>
+
+    <string name="dialog_item_title">Új tétel hozzáadása</string>
+
+    <string name="notification_title_new_item">Új tétel a bevásárlólistán!</string>
+    <string name="notification_body_new_item">%2$s hozzáadta: %1$s</string>
+
+    <string name="snackbar_database_connected">Csatlakozva az adatbázishoz!</string>
+    <string name="snackbar_database_reconnecting">Elveszett a kapcsolat az adatbázissal, újracsatlakozás…</string>
+    <string name="snackbar_database_connecting">Csatlakozás az adatbázishoz…</string>
+
+    <string name="loading_shopping_list">Adatok betöltése…</string>
+    <string name="empty_shopping_list">Mindent megvettél!</string>
+
+    <string name="created_by">Hozzáadta: %1$s</string>
+    <string name="cancel">megszünteti</string>
+    <string name="ok">Rendben</string>
+    <string name="dialog_share_title">Felhasználó hozzáadása a megosztáshoz</string>
+    <string name="grocery_list">Hozzávalók listája</string>
+    <string name="mail_address">Email: %1$s</string>
+    <string name="user_name">Üdvözöljük: %1$s</string>
+    <string name="disconnect">Szétkapcsol</string>
+    <string name="swipeRightShare">Csúsztassa jobbra a megosztáshoz</string>
+    <string name="swipeRightCheck">Csúsztassa jobbra a ellenőrzést</string>
+    <string name="swipeLeftDelete">Csúsztassa balra a törléshez</string>
+    <string name="not_connected">Nem kapcsolódik</string>
+    <string name="snackbar_share_added">Hozzáadott: %1$s</string>
+    <string name="pressBtnToAdd">A hozzáadáshoz kattintson a +</string>
+    <string name="long_click_enter_list">Tartsa lenyomva a listát a részletekért</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:colorBackground"
+    android:orientation="vertical"
+    android:paddingTop="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="?listPreferredItemPaddingLeft"
+        android:paddingRight="?listPreferredItemPaddingRight">
+
+        <TextView
+            android:id="@+id/shopping_list_name"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:textColor="@color/blackPrimary"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/shopping_list_item_check"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Text"
+            android:layout_width="match_parent" />
+
+        <ImageView
+            android:id="@+id/shopping_list_item_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/green"
+            app:layout_constraintBottom_toBottomOf="@+id/shopping_list_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/shopping_list_name"
+            app:srcCompat="@drawable/ic_check_white_24dp"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shopping_list_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="?listPreferredItemPaddingLeft"
+        android:paddingRight="?listPreferredItemPaddingRight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shopping_list_name">
+
+        <TextView
+            android:id="@+id/shopping_list_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Text" />
+
+        <TextView
+            android:id="@+id/shopping_list_created_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Text" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/Divider"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>

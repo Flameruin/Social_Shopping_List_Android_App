@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">רשימת קניות חברתית</string>
+
+    <string name="hint_name">שם</string>
+    <string name="hint_item_description">תיאור</string>
+
+    <string name="add">הוספה</string>
+
+    <string name="dialog_item_title">הוסף פריט חדש</string>
+
+    <string name="notification_title_new_item">פריט חדש נוסף לרשימה</string>
+    <string name="notification_body_new_item">%2$s נוסף: %1$s</string>
+
+    <string name="snackbar_database_connected">מחובר למאגר נתונים</string>
+    <string name="snackbar_database_reconnecting">החיבור למאגר נתונים נאבד, מתחבר מחדש</string>
+    <string name="snackbar_database_connecting">מתחבר למאגר נתונים</string>
+
+    <string name="loading_shopping_list">טוען את רשימתך</string>
+    <string name="empty_shopping_list">הרשימה ריקה</string>
+
+    <string name="created_by">נוצר ע\"י: %1$s</string>
+    <string name="cancel">ביטול</string>
+    <string name="ok">אישור</string>
+    <string name="dialog_share_title">הוסף משתמש לשיתוף</string>
+    <string name="grocery_list">רשימת מצרכים</string>
+    <string name="mail_address">אימייל: %1$s</string>
+    <string name="user_name">שלום: %1$s</string>
+    <string name="disconnect">התנתק</string>
+    <string name="swipeRightCheck">החלק ימינה כדי לסמן</string>
+    <string name="swipeRightShare">החלק ימינה כדי לשתף</string>
+    <string name="swipeLeftDelete">החלק שמאלה כדי למחוק</string>
+    <string name="not_connected">לא מחובר</string>
+    <string name="snackbar_share_added">התווסף: %1$s</string>
+    <string name="pressBtnToAdd">לחץ על + כדי להוסיף</string>
+    <string name="long_click_enter_list">לחץ לחיצה ארוכה על הרשימה לפרטים</string>
+
+</resources>

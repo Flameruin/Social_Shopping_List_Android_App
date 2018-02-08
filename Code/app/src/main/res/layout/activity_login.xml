@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="kinneret.shoppinglist.user_interface.list.ActivityLogin">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:src="@drawable/shopping_cart_groceries_color"
+            android:contentDescription="Shopping Cart" />
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/googleBtnLogin" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/googleBtnLogout"
+            android:text="@string/disconnect" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
